@@ -1,5 +1,5 @@
 #!/bin/bash
-/usr/bin/python3 -m pip install virtualenv
-/usr/bin/python3 -m virtualvenv env
+python3 -m pip install virtualenv
+virtualenv env
 source env/bin/activate
-/usr/bin/python3 -m pip install pygame
+python3 -m pip install pygame

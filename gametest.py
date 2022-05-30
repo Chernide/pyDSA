@@ -9,7 +9,7 @@ import random
 class App:
     def __init__(self):
         self._running = True
-        self.size = self.w, self. h = 800, 800
+        self.size = self.w, self.h = 800, 800
         self.roll = False
         self.roll_count = 0
         self.startdie1, self.startdie2 = random.randint(0, 2), random.randint(0, 2)

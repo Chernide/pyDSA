@@ -1,5 +1,8 @@
-# Environment stuff
+# Environment
 env/*
+
+# Python
+**/__pycache__
 
 # vscode
 .vscode/*

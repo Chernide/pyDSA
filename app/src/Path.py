@@ -1,9 +1,9 @@
 import random
-import Tile
+from  ...app.src.Tile import Tile
 
 class Path:
     def __init__(self):
-        self.path = self.__generageNewPath()
+        self.path = self.__generateNewPath()
 
     def __generateNewPath(self):
         newPath = []
